@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Life's Gallery</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!--<link rel="stylesheet" type="text/css" href="http://ryanwaite28.github.io/my-cdn/css/bootstrap.css"/>-->
+		<link rel="stylesheet" type="text/css" href="emerald.css"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 785px)" href="mobile-style.css">
+		<link rel="icon" type="image/jpg" href="pf.jpg"/>
+		<script src="http://ryanwaite28.github.io/my-cdn/js/angular.js"></script>
+		<script src="http://ryanwaite28.github.io/my-cdn/js/jquery.js"></script>
+		<!--<script src="emerald.js"></script>-->
+		<script src="script.js"></script>
+	</head>
+
+	<body ng-app="myApp" ng-controller="masterCtrl">
+
+		<div class="top-bar">
+			<div class="col-12">
+					<h1 class="txt-center top-text"><b><em>Life's Gallery</em></b></h1>
+					<p class="txt-center" id="msg"></p>
+				</div>
+
+				<div class="col-12">
+					<center>
+						<input type="text" id="query" placeholder="Searcg Query"/>
+						<input type="submit" id="submit-btn" ng-click="loadGallery()"/>
+						<input type="button" id="alert-btn" value="?" ng-click="info()"/>
+						<input type="button" id="top-btn" value="^"/>
+					</center>
+				</div>
+		</div>
+
+		<div id="gc" class="container-1">
+
+			<h2 style="color: white;" class="txt-center"><em>Top</em></h2>
+
+			<center>
+			<div id="pictures-body">
+
+				
+
+			</div>
+			</center>
+
+		</div>
+
+	</body>
+
+</html>
