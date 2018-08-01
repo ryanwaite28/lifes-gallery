@@ -65,7 +65,7 @@
 }
 
 .picture-div::-webkit-scrollbar, #gc::-webkit-scrollbar {
-	display: none;
+	/*display: none;*/
 }
 
 .picture-div:hover .flickr-text {
